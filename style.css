@@ -1,16 +1,17 @@
 
 @media all and (max-width: 1000px){
     span{
-        font-size:2rem;
+        font-size:4rem;
         align-text:center;
         letter-spacing:-5px;
     }
 }
 @media all and (max-width: 670px){
     span{
-        font-size:25px;
+        font-size:2rem;
         align-text:center;
         letter-spacing:-10px;
+        align-items:center;
         
     }
 }
@@ -25,10 +26,10 @@ body {
     align-items: center;
     align-text:center;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 .container > span{
-    animation: glow 2s ease-in-out infinite;
+    animation: glow 2.5s ease-in-out infinite;
 }
 
 @keyframes glow {
@@ -104,4 +105,19 @@ body {
 }
 .container span:nth-child(22){
     animation-delay: 1.80s;
+}
+.container span:nth-child(23){
+    animation-delay: 2.20s;
+}
+.container span:nth-child(24){
+    animation-delay: 2.20s;
+}
+.container span:nth-child(25){
+    animation-delay: 2.20s;
+}
+.container span:nth-child(26){
+    animation-delay: 2.20s;
+}
+.container span:nth-child(27){
+    animation-delay: 2.20s;
 }
